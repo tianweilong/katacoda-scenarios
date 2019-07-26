@@ -34,12 +34,20 @@
   
 - 安装protoc插件
   
-  `go get -u github.com/golang/protobuf/protoc-gen-go`{{execute}}
+  `go get -u -v github.com/golang/protobuf/protoc-gen-go`{{execute}}
 
 - 设置GOBIN环境变量
   
   `export PATH=$PATH:$GOPATH/bin`{{execute}}
 
+
+运行示例代码：
+
+`cd $GOPATH/src/google.golang.org/grpc/examples/helloworld`{{execute}}
+
+`go run greeter_server/main.go`{{execute}}
+
+`go run greeter_client/main.go`{{execute}}
 
 
 
