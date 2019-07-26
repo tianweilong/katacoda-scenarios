@@ -6,6 +6,9 @@ apt-get 升级更新
 
 `sudo apt-get update && sudo apt-get -y upgrade`{{execute}}
 
+安装wget
+`sudo apt-get install wget`{{execute}}
+
 获取Go 1.12 安装包
 
 `wget https://dl.google.com/go/go1.12.6.linux-amd64.tar.gz`{{execute}}
