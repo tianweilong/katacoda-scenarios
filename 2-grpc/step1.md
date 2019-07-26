@@ -4,7 +4,7 @@
 
 更新apt-get
 
-`sudo apt-get update && sudo apt-get upgrade`{{execute}}
+`sudo apt-get update && sudo apt-get -y upgrade`{{execute}}
 
 查看Go版本，gRPC需要go 1.6版本或更高
 
