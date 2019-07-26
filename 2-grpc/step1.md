@@ -30,7 +30,7 @@
   
 - 设置protoc环境变量
  
-  `export PATH=/home/scrapbook/tutorial/protoc/bin:$PATH`{{execute T1}}
+  `echo 'export PATH=/home/scrapbook/tutorial/protoc/bin:$PATH' >> ~/.bashrc && source ~/.bashrc`{{execute T1}}
   
 - 安装protoc插件
   
@@ -38,7 +38,7 @@
 
 - 设置GOBIN环境变量
   
-  `export PATH=$PATH:$GOPATH/bin`{{execute T1}}
+  `echo 'export PATH=$PATH:$GOPATH/bin' >> ~/.bashrc && source ~/.bashrc`{{execute T1}}
 
 
 运行服务端代码：
