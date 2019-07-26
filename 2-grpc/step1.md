@@ -41,11 +41,16 @@
   `export PATH=$PATH:$GOPATH/bin`{{execute T1}}
 
 
-运行示例代码：
+运行服务端代码：
 
 `cd $GOPATH/src/google.golang.org/grpc/examples/helloworld`{{execute T1}}
 
 `go run greeter_server/main.go`{{execute T1}}
+
+
+运行客户端代码:
+
+`cd $GOPATH/src/google.golang.org/grpc/examples/helloworld`{{execute T2}}
 
 `go run greeter_client/main.go`{{execute T2}}
 
