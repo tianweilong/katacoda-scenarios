@@ -1,6 +1,6 @@
-This is your first step.
+第一步：
 
-## Task
+## 任务
 
 apt-get 升级更新 
 
