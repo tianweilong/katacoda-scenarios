@@ -26,6 +26,8 @@ apt-get 升级更新
 
 `mkdir -p $HOME/Projects/Demo && export GOPATH=$HOME/Projects/Demo`{{execute}}
 
+`export PATH=$GOPATH/bin:$GOROOT/bin:$PATH`{{execute}}
+
 
 验证安装
 
