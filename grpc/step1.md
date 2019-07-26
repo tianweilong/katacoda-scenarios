@@ -20,12 +20,12 @@ apt-get 升级更新
 
 `export GOROOT=/usr/local/go`{{execute}}
 
-`mkdir -p $HOME/Projects/Demo && export GOPATH=$HOME/Projects/Demo` {{execute}}
+`mkdir -p $HOME/Projects/Demo && export GOPATH=$HOME/Projects/Demo`{{execute}}
 
 
 验证安装
 
 `go version`{{execute}}
 
-`go env` {{execute}}
+`go env`{{execute}}
 
